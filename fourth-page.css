@@ -1,0 +1,103 @@
+.fourth-page{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 2040px;
+    left: 0;
+    right: 0;
+    height: 215px;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter{
+    display: inline;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.subscribe{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+}
+.email{
+    margin-top: 15px;
+    height: 30px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+}
+.subutton{
+    margin-top: 15px;
+    width: 105px;
+    height: 40px;
+    background-color: rgb(250, 33, 33);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 14px;
+}
+.subutton:hover{
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.subscribed{
+    position: fixed;
+    z-index: 500;
+    top: 45%;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    background-color: rgba(240, 128, 128, 0.8);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    display: none;
+    transition: display 0.5s;
+}
+.offer{
+    position: fixed;
+    z-index: 600;
+    top: 13%;
+    left: 1%;
+    width: 25%;
+    height: 17%;
+    background-color: rgba(249, 189, 189, 0.95);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    flex-direction: column;
+    border-radius: 3px;
+    display: flex;
+}
+.fline{
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+.sline{
+    font-size: 15px;
+}
+.close{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+.close:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,121 @@
+*{
+    font-family: 'Times New Roman';
+}
+.sale-header{
+    background-color: #f08080;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+}
+.shop-now{
+    margin-left: 5px;
+    text-decoration: underline;
+    color: black;
+}
+.shop-now:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+    transition: color 0.15s;
+    transition: font-size 0.15s;
+}
+
+.header{
+    color:white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 25px;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 200;
+}
+.logo{
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+}
+.left-section{
+    flex:1;
+}
+.middle-section{
+    /* width: 600px; */
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.sections:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration 0.15s;
+}
+.right-section{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.user{
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 15;
+}
+.favdiv{
+    position: relative;
+}
+.fav{
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 15;
+}
+.favtip, .cartip{
+    position: absolute;
+    top:0;
+    right:6px;
+    padding-top: 1px;
+    background-color: rgb(247, 57, 57);
+    font-size: 11px;
+    width: 15px;
+    height: 13px;
+    border: none;
+    border-radius: 7.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    opacity: 0;
+}
+.cart{
+    height: 25px;
+    border-radius: 13.5px;
+}
+.cartip{
+    top:-1px;
+    right:-3px;
+}
+.user:hover, .fav:hover{
+    cursor: pointer;
+    height: 32px;
+    transition: height 0.15s;
+}
+.cart:hover{
+    cursor: pointer;
+    height: 29px;
+    transition: height 0.15s;
+}

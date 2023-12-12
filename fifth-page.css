@@ -1,0 +1,41 @@
+.fifth-page{
+    display: grid;
+    background-color: rgba(0,0,0,0.88);
+    position: absolute;
+    top: 2255px;
+    left: 0;
+    right: 0;
+    height: 245px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.about{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    margin-left: 45px;
+    flex-direction: column;
+    justify-content: center;
+}
+.topic{
+    margin-bottom: 25px;
+    font-size: 18px;
+}   
+.subtopic{
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 7px;
+    display: inline;
+}
+.spc{
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 7px;
+    display: inline;
+}
+.subtopic:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,111 @@
+.sec-page{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 695px;
+    left: 0;
+    right: 0;
+    height: 695px;
+    align-items: center;
+    flex-direction: column;
+}
+.bestsellers{
+    display: inline;
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+}
+.space{
+    display: inline;
+    margin-left: 6.5px;
+}
+.products{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+.prod1, .prod2, .prod3{
+    width: 360px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    width: 360px;
+    height: 430px;
+    object-fit: cover;
+}
+.name{
+    margin-top: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.price{
+    margin-top: 3px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 16px;
+}
+.buy{
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 3px;
+    border: none;
+    background-color: rgb(244, 91, 91);
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 90px;
+}
+.buy:hover{
+    font-size: 14px;
+    background-color: rgb(245, 58, 58);
+    cursor: pointer;
+    transition: font-size 0.15s;
+    transition: background-color 0.15s;
+}
+.add{
+    margin-top: 4.5px;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    font-size: 12px;
+    height: 34px;
+    font-weight: bold;
+    width: 90px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+.add:hover{
+    background-color: rgb(246, 244, 244);
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    transition: color 0.15s;
+    transition: border 0.15s;
+}
+.view{
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman';
+    margin-top: 10px;
+    color:white;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.view:hover{
+    cursor: pointer;
+    font-size: 14.5px;
+    transition: text-decoration 0.15s;
+}
